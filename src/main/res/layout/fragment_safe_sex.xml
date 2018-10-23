@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SafeSex">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="DEFINITION"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Sexual abuse, also referred to as molestation, is usually undesired sexual behavior by one person upon another. "/>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="VICTIMS"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="SPOUSES: Spousal sexual abuse is a form of domestic violence. When the abuse involves threats of unwanted sexual contact or forced sex by a woman's husband or ex-husband, it may constitute rape, depending on the jurisdiction, and may also constitute an assault"/>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="CHILDREN: Child sexual abuse is a form of child abuse in which a child is abused for the sexual gratification of an adult or older adolescent. Effects of child sexual abuse include shame and self-blame, depression, anxiety, post-traumatic stress disorder, self-esteem issues, sexual dysfunction, chronic pelvic pain, addiction, self-injury, suicidal ideation, borderline personality disorder, and propensity to re-victimization in adulthood. Child sexual abuse is a risk factor for attempting suicide."/>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="PEOPLE WITH DEVELOPMENT DISABILITIES:People with developmental disabilities are often victims of sexual abuse. According to research, people with disabilities are at a greater risk for victimization of sexual assault or sexual abuse because of lack of understanding. "/>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="PEOPLE WITH DEMENTIA: Elderly people, especially those with dementia, can be at risk of abuse. There were over 6,000 'safeguarding concerns and alerts' at UK care homes from 2013 to 2015."/>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="TREATMENT"/>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Preventative medication against sexually transmitted infections are given to victims of all types of sexual abuse (especially for the most common diseases like chlamydia, gonorhea, trichomoniasis and bacterial vaginosis) and a blood serum is collected to test for STIs (such as HIV, hepatitis B and syphilis). Any survivor with abrasions are immunized for tetanus if 5 years have elapsed since the last immunization. Short-term treatment with a benzodiazepine may help with acute anxiety and antidepressants may be helpful for symptoms of PTSD, depression and panic attacks.   "   />
+
+</LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

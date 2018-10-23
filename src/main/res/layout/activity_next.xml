@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NextActivity"
+    android:background="@drawable/blue"
+    android:scrollbarAlwaysDrawHorizontalTrack="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image1"
+            style="@style/ImageStyle"
+        android:src="@drawable/sexeducation" />
+        <TextView
+            style="@style/TextStyle"
+            android:layout_above="@+id/b11"
+            android:text="Sex Education" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Be Safe"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/b11"
+            style="@style/ButtonStyle"
+            android:layout_alignBottom="@+id/image1"
+            android:layout_marginLeft="10dp"
+            android:text="TAP ME to KNOW MORE" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image2"
+            style="@style/ImageStyle"
+            android:src="@drawable/legal" />
+        <TextView
+            android:layout_above="@+id/b21"
+            style="@style/TextStyle"
+            android:text="Legal Information"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Be Safe"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/b21"
+            android:layout_alignBottom="@+id/image2"
+            style="@style/ButtonStyle"
+            android:layout_marginLeft="10dp"
+            android:text="TAP ME to KNOW MORE" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image3"
+            style="@style/ImageStyle"
+            android:src="@drawable/vote" />
+        <TextView
+            android:layout_above="@+id/b31"
+            style="@style/TextStyle"
+            android:text="Voting Education"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Be Safe"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/b31"
+            android:layout_alignBottom="@+id/image3"
+            style="@style/ButtonStyle"
+            android:layout_marginLeft="10dp"
+            android:text="TAP ME to KNOW MORE" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image4"
+            style="@style/ImageStyle"
+            android:src="@drawable/healthed" />
+        <TextView
+            android:layout_above="@+id/b41"
+            style="@style/TextStyle"
+            android:text="Health Education"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Be Safe"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/b41"
+            android:layout_alignBottom="@+id/image4"
+            style="@style/ButtonStyle"
+            android:layout_marginLeft="10dp"
+            android:text="TAP ME to KNOW MORE" />
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
